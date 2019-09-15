@@ -14,8 +14,6 @@
 
 ## Awesome Logo *(if applicable)*
 
-## Website *(if applicable)*
-
 # Inferring regulators and pathways implicated in NF1 and NF2 tumors originating from Schwann cells using gene expression data
 
 ## Abstract
