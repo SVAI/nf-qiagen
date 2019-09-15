@@ -144,7 +144,5 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 ## Reproduction:
 
-[Duck Duck Go](https://duckduckgo.com).
-
-[NF1](/resources/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
+[Significan upstream regulators for NF1 comparison](/resources/nf1s_upreg.xls)
 
