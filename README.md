@@ -39,8 +39,7 @@ A better understanding of the biology of the different tumor subtypes will lead 
 ## Methods
 
 ### Data
-We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNA-Seq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
-### >>> can we link to this data or provide downloaded files?
+We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNA-Seq data obtained from normal Schwann cells (SRP212780 and SRP094118).
 
 ### Data processing and visualization
 Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15484 genes. RNA-Seq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
