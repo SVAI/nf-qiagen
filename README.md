@@ -18,13 +18,13 @@
 
 ## Abstract
 
-* Neurofibromatosis Type 1 (NF1) and Neurofibromatosis Type 2 (NF2) present as specific tumor types arising from Schwann cells. Using RNA-Seq data to perform a differential expression analysis we identified signaling pathways and upstream regulators enriched for specific tumor subtypes.
+* Neurofibromatosis Type 1 (NF1) and Neurofibromatosis Type 2 (NF2) present as specific tumor types arising from Schwann cells. Using RNA-Seq data to perform a differential expression analysis we identified signaling pathways and upstream regulators enriched for specific tumor types.
 
 * Using this information we then further developed tumor-specific gene/pathway networks to prioritize potentially significant biology.
 
 * We then mapped the significantly activated upstream regulators to drug-target data to identify compounds that may have tumor-specific activity in these diseases.
 
-* This work provides potential insight into the biology of specific NF1 and NF2 tumor subtypes, prioritizes novel drug targets for further development and establishes an analytic that can be applied to further unravel the biology of other tumor subtypes arising from different cells of origin in NF1 and NF2 patients.
+* This work provides potential insight into the biology of specific NF1 and NF2 tumor types, prioritizes novel drug targets for further development and establishes an analytic that can be applied to further unravel the biology of other tumor types arising from different cells of origin in NF1 and NF2 patients.
 
 ## Introduction
 
@@ -34,7 +34,7 @@ Tumor development in NF1 and NF2 patients can take a number of different clinica
 
 Due to the different COO for these tumors, the underlying biology is likely to be different. This makes therapeutic compound discovery to effectively target these tumors exceptionally difficult.
 
-A better understanding of the biology of the different tumor subtypes will lead to better approaches for identifying rational and effective treatment options. 
+A better understanding of the biology of the different tumor types will lead to better approaches for identifying rational and effective treatment options. 
 
 ## Methods
 
@@ -42,7 +42,7 @@ A better understanding of the biology of the different tumor subtypes will lead 
 We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNA-Seq data obtained from normal Schwann cells (SRP212780 and SRP094118).
 
 ### Data processing and visualization
-Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15484 genes. RNA-Seq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
+Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15,484 genes. RNA-Seq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
 $$s_j=\mbox{median}_{i:K_i^R\neq 0}\frac{K_{ij}}{K_i^R}\;\;\; \mbox{where} \;\;\;K_i^R=\left(\prod_{j=1}^mK_{ij}\right)^{1/m}$$
 Counts where subsequently log2-transformed (after adding a constant of 0.1 in order to handle zero counts). We then performed standard Principal Componant Analysis (PCA) retaining only the 10 top components as input into t-Distributed Stochastic Neighbor Embedding (t-SNE) (default parameter settings).
 
@@ -52,15 +52,13 @@ Differential expression analysis between selected clusters of samples (tumor vs.
 ### Ingenuity Knowledge Base
 The Ingenuty Knowledge Base (IKB) (QIAGEN) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
 
-### >>> Need explanation of canonical pathways?
-
 ### Upstream Regulator Analysis
-Upstream Regulator Analysis (URA) (CITATION) based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
-### >>> cite paper
+Upstream Regulator Analysis (URA) [Krämer et al. Bioinformatics. 2014 Feb 15;30(4):523-30.  PMID: 24336805] based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
+
 ### >>> (COULD ADD SMALL DRAWING FROM OUR PAPER HERE)
 
 ### Machine learning-augmented Pathway Analysis
-Machine learning-augmented Pathway Analysis (MLPA) is used to infer weighted and signed pathway-gene associations. Its method is based on content-driven vector space embedding of genes, with gene feature vectors being used for subsequent training for pathway prediction. 
+Machine Learning-augmented Pathway Analysis (MLPA) is used to infer weighted and signed pathway-gene associations. Its method is based on content-driven vector space embedding of genes, with gene feature vectors being used for subsequent training for pathway prediction. 
 
 ### Software availability and reproducibility
 PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook running Python 2.7 with libraries pandas, sklearn, numpy and matplotlib. PCA and t-SNE was also run independently using Omicsoft ArrayStudio (QIAGEN) with similar results. DESeq2 is publicly available (R) but we used it as part of a pipeline in Omicsoft ArrayStudio. URA and access to the IKB is commercially available in Ingenuity Pathway Analysis (IPA) (QIAGEN). MLPA is in active development and has not yet been made publicly available. The jupyter notebook and all necessary input data is being provided as a gzipped tar bundle on github.
@@ -98,15 +96,15 @@ Five differential expression datasets were created, each of which compared norma
 
 ### >>> need 5 datasets
 
-Analysis of these datasets in IPA shows significant pathway and regulator differentiation between NF1 and NF2 tumors, but NF1 subtypes appear relatively similar.
+Analysis of these datasets in IPA shows significant pathway and regulator differentiation between NF1 and NF2 tumors, but NF1 types appear relatively similar.
 ![5 tumor comparison!](/images/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
 
 ### >>> need image of entire heatmap
 ### >>> need exported spreadsheet
 
-To further differentiate between NF1 subtypes, we created three more differential expression datasets matching cutaneous nf against mpnst1, mpnst2, and neurofibroma each.
+To further differentiate between NF1 types, we created three more differential expression datasets matching cutaneous nf against mpnst1, mpnst2, and neurofibroma each.
 ![3 tumor comparison!](/images/nf1_comparison.png "Pathway and regulator comparison across NF1 tummor types")
-Now differences between the NF1 subtypes appear.
+Now differences between the NF1 types appear.
 
 ### >>> need image of entire heatmap
 ### >>> need exported spreadsheet
@@ -121,8 +119,6 @@ Signaling through these pathways potentially explains gene expression changes.
 
 
 ## Conclusion/Discussion: 
-
-new mpnst subtypes?
 
 ### Please make sure you address ALL of the following:
 
