@@ -20,13 +20,7 @@
 
 ## Abstract
 
-Using the RNASeq data, we differentiated between the tumor types that descend from Schwann cells and identified drugs that target those differences.
-
-The following steps were followed:
-1. Cluster RNASeq expression data using PCA and t-SNE
-2. Identify the biology that differentiates the tumor types
-3. Create a network for each type, emphasizing the differences
-4. Identify drugs that target key molecules in the tumor types
+Using the RNASeq data, we differentiated between the tumor types that descend from Schwann cells and identified drugs that target significant regulators.
 
 ## Introduction *: What's the problem? Why should we solve it?*
 
