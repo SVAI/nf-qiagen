@@ -1,18 +1,5 @@
-# nf-qiagen
-
-# GoodDocData -- A Template for Simple and Clear Documentation of Hackathon Analyses!
-
-*adapted from [NCBI-Hackathons/GoodDoc](https://github.com/NCBI-Hackathons/GoodDoc) with some tweaks for analysis-driven projects*
-
-*instructions in italics can be deleted as sections are filled in*
-
-*most fields are optional, Conclusion and Important Resources are required*
-
-## Please cite our work -- here is the ICMJE Standard Citation:
-
-### ...and a link to the DOI: *You can make a free DOI with zenodo, synapse, figshare, or other resources <link>*
-
 ![logo!](/images/logo2.png "Logo")
+#### Team QIAGEN
 
 # Inferring regulators and pathways involved in NF1 and NF2 tumors originating from Schwann cells using gene expression data
 
