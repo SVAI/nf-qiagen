@@ -77,18 +77,18 @@ Our approach involved the following steps:
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
 Initially, the combination of RNASeq expression data and two sources of normal Schwann cells was clustered using PCA and t-SNE.
-![first tsne!](/images/tsne1.png "Initial t-SNE plot")
+![first tsne!](/images/tsne1-2.png "Initial t-SNE plot")
 This first attempt highlighted a few issues:
 * Some specimens separate into clear tumor type clusters, but others do not.
 * There is ambiguity around which samples represent true ‘normal’ tissue of origin.
 * There is potential for significant separation to be based on batch effect or technical artificats.
 
-We noted that the tumor types descended from different ancestor cells (http://oncotree.mskcc.org), which could lead to problems with comparing their data, so we choose to focus on tumors originating from Schwann Cells.
+We noted that the tumor types descended from different ancestor cells (http://oncotree.mskcc.org), which could lead to problems with comparing their data, so we choose to focus on tumors originating from Schwann cells.
 ![tumor type taxonomy!](/images/taxonomy3.png "Tumor type taxonomy")
 ### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
-Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
-![second tsne!](/images/tsne2.png "t-SNE of Schwann-decended tumor types")
+After reducing to descendants of Schwann cells, all tumor types and normal cells separate into distinct clusters.
+![second tsne!](/images/tsne2-2.png "t-SNE of Schwann-decended tumor types")
 Note that some types appear to subdivide further, so for our purposes, we split MPNST into two sub-groups.
 Also, both sets of normal Schwann cells clustered together, which gives confidence that the clustering is based on real biology rather than just experimental methods.
 
