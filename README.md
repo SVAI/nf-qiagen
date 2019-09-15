@@ -117,6 +117,16 @@ Signaling through these pathways potentially explains gene expression changes.
 
 ### >>> Links to all tumor type networks
 
+### Step 4: Identify drugs that target molecules in networks
+
+By combining the regulator results above with the Harmonized Drug Screening Data, drug targets can be matched with tumors and their effect can be predicted.
+![drugs!](/images/drugs.png "Sample of targeted regulators per tumor")
+The table above shows upstream regulators identified in different tumor types that are also targets in available drug screening data.
+* All upstream regulators are predicted to be activating except those shown in parentheses
+* Genes in bold are known to function in regulation of chromatin
+* Coloring is to highlight tumor type specificity of the upstream regulator
+
+SMARCA4 is a particularly interesting target for NF1.
 
 ## Conclusion/Discussion: 
 
