@@ -28,9 +28,15 @@
 
 * This work provides potential insight into the biology of specific NF1 and NF2 tumor subtypes, prioritizes novel drug targets for further development and establishes an analytical that can be applied to further deconvolve the biology of other tumor subtypes arising from different cells of origin in NF1 and NF2 patients.
 
-## Introduction *: What's the problem? Why should we solve it?*
+## Introduction
 
-### >>> Seems like we could skip this
+Tumor development in NF1 and NF2 patients can take a number of different courses based on the cell of origin (COO) for the tumor for example:
+* pNF, cNF, MPNST and Schwanoma arising from Schwann cells in the PNS
+* Glioma and Menigioma arising from othe glial precursors in the CNS
+
+Because of the different COO for these tumors the underlying biology is likely to be different. This makes therapeutic compound discovery to effectively target these tumors exceptionally difficult.
+
+A better understanding of the biology of the different tumor subtype will lead to better approaches for identifying rational and effective treatment options. 
 
 ## Methods
 
