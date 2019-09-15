@@ -133,7 +133,7 @@ SMARCA4 is a particularly interesting target for NF1.
 * NF1 and NF2 are clearly differentiated.
 * This approach can discriminate between tumor types by identifying drivers and signaling cascades.
 * Content-driven Machine Learning can generate tumor-specific networks involving inferred gene-pathway associations.
-* This apprach identified potential therapeutic targets, including the following SMARCA4 hypothesis:
+* This approach identified potential therapeutic targets, including the following SMARCA4 hypothesis:
 ### SMARCA4 could be a potential drug target for NF1
 SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential driver of tumorigenesis.  The gene has the potential to drive CTNNB1, which is another NF1 upstream regulator in the results above.  Compounds that target SMARCA4 are already available, so in this context, SMARCA4 is a potential drug target.
 ![smarca4!](/images/smarca4.png "SMARCA4")
