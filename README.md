@@ -12,7 +12,7 @@
 
 ### ...and a link to the DOI: *You can make a free DOI with zenodo, synapse, figshare, or other resources <link>*
 
-## Awesome Logo *(if applicable)*
+![logo!](/images/logo2.png "Logo")
 
 # Inferring regulators and pathways involved in NF1 and NF2 tumors originating from Schwann cells using gene expression data
 
