@@ -77,7 +77,7 @@ Our approach involved the following steps:
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
 Initially, the combination of RNASeq expression data and two sources of normal Schwann cells was clustered using PCA and t-SNE.
-![first tsne!](/images/tsne1-2.png "Initial t-SNE plot")
+![first tsne!](/images/tsne1-3.png "Initial t-SNE plot")
 This first attempt highlighted a few issues:
 * Some specimens separate into clear tumor type clusters, but others do not.
 * There is ambiguity around which samples represent true ‘normal’ tissue of origin.
