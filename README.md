@@ -138,24 +138,26 @@ SMARCA4 is a particularly interesting target for NF1.
 SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential driver of tumorigenesis.  The gene has the potential to drive CTNNB1, which is another NF1 upstream regulator in the results above.  Compounds that target SMARCA4 are already available, so in this context, SMARCA4 is a potential drug target.
 ![smarca4!](/images/smarca4.png "SMARCA4")
 
-#### *1. What additional data would you like to have*
+### Additional Questions:
+#### 1. What additional data would you like to have?
+* Data from uniform sources
+* Counts at transcript level
+* More samples of normal tissue data
+* Single cell data
 
-#### *2. What are the next rational steps?* 
+#### 2. What are the next rational steps?
+* Perform same analysis on glioma tumor types by comparing to their origin cells
+* Compare proposed networks to additional known research
+* Consider suggested drugs, such as those targeting SMARCA4
 
-#### *3. What additional tools or pipelines will be needed for those steps?*
+#### 3. What additional tools or pipelines will be needed for those steps?
+* Normal tissue data for glioma tumor types
+* Techniques such as mean-variants modeling (e.g. voom) could be used to compare against DESeq2
 
-#### *4. What skills would additional collaborators ideally have?*
+#### 4. What skills would additional collaborators ideally have?
+* Experts in NF
 
-## Reproduction: *How to reproduce the findings!*
+## Reproduction:
 
-### Docker
 
-*The Docker image contains <R/jupyter> notebooks of all analyses and the dependencies to run them. *Be sure to note if you need any special credentials to access data for these analyses, **don't package restricted data** in your containers!*
-
-Instructions for running the following notebooks: *be sure to adjust these instructions as necessary! check out https://github.com/Sage-Bionetworks/nf-hackathon-2019 for example containers and instructions*
-
-1. `docker pull <your dockerhub repo>/<this container>` command to pull the image from the DockerHub
-2. `docker run <your dockerhub repo>/<this container>` Run the docker image from the master shell script
-
-### Important Resources *: primary data, github repository, Synapse project, dockerfile link etc.*
 
