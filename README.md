@@ -80,8 +80,6 @@ Also, both sets of normal Schwann cells clustered together, which gives confiden
 Five differential expression datasets were created, each of which compared normal Schwann cells to one of the tumor types, such as the following compared against the MPNST1 cluster:
 ![volcano!](/images/volcano.png "MPNST1 vs. normal Schwann")
 
-### >>> need 5 datasets
-
 Analysis of these datasets in IPA shows significant pathway and regulator differentiation between NF1 and NF2 tumors, but NF1 types appear relatively similar.
 ![5 tumor comparison!](/images/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
 
@@ -146,5 +144,7 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 ## Reproduction:
 
+[Duck Duck Go](https://duckduckgo.com).
 
+[NF1](/resources/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
 
