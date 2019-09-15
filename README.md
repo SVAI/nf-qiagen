@@ -36,7 +36,7 @@ Counts where subsequently log2-transformed (after adding a constant of 0.1 in or
 Differential expression analysis between selected clusters of samples (tumor vs. normal) was performed using DESeq2. 
 
 ### Ingenuity Knowledge Base
-The Ingenuty Knowledge Base (IKB) (QIAGEN) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
+The Ingenuity Knowledge Base (IKB) (QIAGEN) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
 
 ### Upstream Regulator Analysis
 Upstream Regulator Analysis (URA) [Krämer et al. Bioinformatics. 2014 Feb 15;30(4):523-30.  PMID: 24336805] based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
