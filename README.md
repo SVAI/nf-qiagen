@@ -42,7 +42,7 @@ Additionally, we wanted to compare tumor types to normal cells, so we obtained t
 *need to specify where they came from and link/provide file*
 
 The combination resulted in the following t-SNE plot:
-![first tsne!](/images/first_tsne.png "Initial t-SNE plot")
+![first tsne!](/images/tsne1.png "Initial t-SNE plot")
 Some clusters were distinct but others, such as the None and Plexiform Neurofibroma overlapped with other clusters.
 
 We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
@@ -50,7 +50,7 @@ We noted that the tumor types descended from different ancestor cells.  The foll
 *is it possible to provide a link to this specific image rather than just the site? If so, let's include*
 
 Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
-![second tsne!](/images/second_tsne.png "t-SNE of Schwann-decended tumor types")
+![second tsne!](/images/tsne2.png "t-SNE of Schwann-decended tumor types")
 
 ## Results *: What did we observe? Figures are great!*
 
