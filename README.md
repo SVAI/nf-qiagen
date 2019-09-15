@@ -153,6 +153,7 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 #### 3. What additional tools or pipelines will be needed for those steps?
 * Normal tissue data for glioma tumor types
 * Techniques such as mean-variants modeling (e.g. voom) could be used to compare against DESeq2
+* Time :-)
 
 #### 4. What skills would additional collaborators ideally have?
 * Experts in NF
