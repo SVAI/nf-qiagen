@@ -39,11 +39,11 @@ A better understanding of the biology of the different tumor subtypes will lead 
 ## Methods
 
 ### Data
-We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNAseq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
+We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNA-Seq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
 ### >>> can we link to this data or provide downloaded files?
 
 ### Data processing and visualization
-Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15484 genes. RNAseq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
+Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15484 genes. RNA-Seq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
 $$s_j=\mbox{median}_{i:K_i^R\neq 0}\frac{K_{ij}}{K_i^R}\;\;\; \mbox{where} \;\;\;K_i^R=\left(\prod_{j=1}^mK_{ij}\right)^{1/m}$$
 Counts where subsequently log2-transformed (after adding a constant of 0.1 in order to handle zero counts). We then performed standard Principal Componant Analysis (PCA) retaining only the 10 top components as input into t-Distributed Stochastic Neighbor Embedding (t-SNE) (default parameter settings).
 
@@ -69,14 +69,14 @@ PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook ru
 ## Results
 
 Our approach involved the following steps:
-1. Cluster RNASeq expression data using PCA and t-SNE
+1. Cluster RNA-Seq expression data using PCA and t-SNE
 2. Identify the biology that differentiates the tumor types
 3. Create tumor type specific networks to visualize the differences
 4. Identify drugs that target molecules in networks
 
-### Step 1: Cluster RNASeq expression data using PCA and t-SNE
+### Step 1: Cluster RNA-Seq expression data using PCA and t-SNE
 
-Initially, the combination of RNASeq expression data and two sources of normal Schwann cells was clustered using PCA and t-SNE.
+Initially, the combination of RNA-Seq expression data and two sources of normal Schwann cells was clustered using PCA and t-SNE.
 ![first tsne!](/images/tsne1-3.png "Initial t-SNE plot")
 This first attempt highlighted a few issues:
 * Some specimens separate into clear tumor type clusters, but others do not.
