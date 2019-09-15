@@ -1,5 +1,5 @@
 ![logo!](/images/logo2.png "Logo")
-### Team QIAGEN
+## Team QIAGEN
 
 # Inferring regulators and pathways involved in NF1 and NF2 tumors originating from Schwann cells using gene expression data
 
