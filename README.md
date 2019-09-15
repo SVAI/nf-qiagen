@@ -18,7 +18,7 @@
 
 ## Abstract
 
-* NF1 and NF2 present as specific tumor types arising from Schwann cells. Using RNA-seq data to perform a differential expression analysis we identified canonical pathways and upstream regulators enriched for specific tumor subtypes.
+* NF1 and NF2 present as specific tumor types arising from Schwann cells. Using RNA-Seq data to perform a differential expression analysis we identified signaling pathways and upstream regulators enriched for specific tumor subtypes.
 
 * Using this information we then further developed disease-specific gene/pathway networks to prioritize potentially significant biology.
 
