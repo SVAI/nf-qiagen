@@ -69,7 +69,6 @@ This first attempt highlighted a few issues:
 
 We noted that the tumor types descended from different ancestor cells (http://oncotree.mskcc.org), which could lead to problems with comparing their data, so we choose to focus on tumors originating from Schwann cells.
 ![tumor type taxonomy!](/images/taxonomy3.png "Tumor type taxonomy")
-### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
 After reducing to descendants of Schwann cells, all tumor types and normal cells separate into distinct clusters.
 ![second tsne!](/images/tsne2-3.png "t-SNE of Schwann-decended tumor types")
