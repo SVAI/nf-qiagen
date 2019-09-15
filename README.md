@@ -82,23 +82,15 @@ Five differential expression datasets were created, each of which compared norma
 Analysis of these datasets in IPA shows significant pathway and regulator differentiation between NF1 and NF2 tumors, but NF1 types appear relatively similar.
 ![5 tumor comparison!](/images/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
 
-### >>> need image of entire heatmap
-### >>> need exported spreadsheet
-
 To further differentiate between NF1 types, we created three more differential expression datasets matching cutaneous nf against mpnst1, mpnst2, and neurofibroma each.
 ![3 tumor comparison!](/images/nf1_comparison.png "Pathway and regulator comparison across NF1 tummor types")
 Now differences between the NF1 types appear.
-
-### >>> need image of entire heatmap
-### >>> need exported spreadsheet
 
 ### Step 3: Create tumor type specific networks to visualize the differences
 
 MLPA was then used to generate tumor-context networks inferred from content.  Upstream regulators are connected to pathways for different tumors, and the resulting networks depict the differences between the tumor types.
 ![networks!](/images/networks.png "Comparison of MPNST1 and Schwannoma")
 Signaling through these pathways potentially explains gene expression changes.
-
-### >>> Links to all tumor type networks
 
 ### Step 4: Identify drugs that target molecules in networks
 
