@@ -38,8 +38,15 @@ We started with the RNASeq data provided in the Harmonized Genomics Dataset sect
 
 *insert lines/link about standardizing the data*
 
-This resulted in the following t-SNE plot:
+Additionally, we wanted to compare tumor types to normal cells, so we obtained two collections of normal Schwann cells.
+*need to specify where they came from and link/provide file*
+
+The combination resulted in the following t-SNE plot:
 ![first tsne!](/images/first_tsne.png "Initial t-SNE plot")
+Some clusters were distinct but others, such as the None and Plexiform Neurofibroma overlapped with other clusters.
+
+We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
+![tumor type taxonomy!](/images/taxonomy.png "Tumor type taxonomy")
 
 ## Results *: What did we observe? Figures are great!*
 
