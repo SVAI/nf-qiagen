@@ -149,7 +149,7 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 [Significant pathways for 5 tumors vs. normal](/resources/nf1_vs_nf2_cps.xls)
 
-[Heatmap of pathways for 5 tumors vs. normal)(/resources/Heatmap_CP_4NF1_1NF2_tumors.jpeg)
+[Heatmap of pathways for 5 tumors vs. normal](/resources/Heatmap_CP_4NF1_1NF2_tumors.jpeg)
 
 ### Results of Cutaneous NF vs. other NF1 tumor types
 
