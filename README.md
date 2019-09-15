@@ -28,29 +28,32 @@ The following steps were followed:
 
 ## Introduction *: What's the problem? Why should we solve it?*
 
-Seems like we could skip this
+### >>> Seems like we could skip this
 
-## Methods *: How did we go about solving it?*
+## Methods
 
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
 We started with the RNASeq data provided in the Harmonized Genomics Dataset section of the Hackathon site. The data is a union of results from multiple different studies, so the data needed to be normalized.
 
-*insert lines/link about standardizing the data*
+### >>> insert lines/link about standardizing the data
 
 Additionally, we wanted to compare tumor types to normal cells, so we obtained two collections of normal Schwann cells.
-*need to specify where they came from and link/provide file*
+### >>> need to specify where they came from and link/provide file
 
 The combination resulted in the following t-SNE plot:
 ![first tsne!](/images/tsne1.png "Initial t-SNE plot")
-Some clusters were distinct but others, such as the None and Plexiform Neurofibroma overlapped with other clusters.
+Some clusters were distinct but others, such as the None and Plexiform Neurofibroma that overlapped with other clusters.
 
 We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
 ![tumor type taxonomy!](/images/taxonomy.png "Tumor type taxonomy")
-*is it possible to provide a link to this specific image rather than just the site? If so, let's include*
+### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include*
 
 Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
 ![second tsne!](/images/tsne2.png "t-SNE of Schwann-decended tumor types")
+
+Note that some types appear to subdivide further, so for our purposes, we split MPNST into two sub-groups.
+Also, both sets of normal Schwann cells clustered together, which gives confidence that the clustering is based on real biology rather than just experimental methods.
 
 ## Results *: What did we observe? Figures are great!*
 
