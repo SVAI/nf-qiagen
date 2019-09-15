@@ -84,7 +84,7 @@ This first attempt highlighted a few issues:
 * There is potential for significant separation to be based on batch effect or technical artificats.
 
 We noted that the tumor types descended from different ancestor cells (http://oncotree.mskcc.org), which could lead to problems with comparing their data, so we choose to focus on tumors originating from Schwann Cells.
-![tumor type taxonomy!](/images/taxonomy2.png "Tumor type taxonomy")
+![tumor type taxonomy!](/images/taxonomy3.png "Tumor type taxonomy")
 ### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
 Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
