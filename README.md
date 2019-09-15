@@ -121,7 +121,7 @@ Signaling through these pathways potentially explains gene expression changes.
 
 By combining the regulator results above with the Harmonized Drug Screening Data, drug targets can be matched with tumors and their effect can be predicted.
 ![drugs!](/images/drugs.png "Sample of targeted regulators per tumor")
-The table above shows upstream regulators identified in different tumor types that are also targets in available drug screening data.
+The table above shows significant upstream regulators identified in different tumor types that are also targets in available drug screening data.
 * All upstream regulators are predicted to be activating except those shown in parentheses
 * Genes in bold are known to function in regulation of chromatin
 * Coloring is to highlight tumor type specificity of the upstream regulator
@@ -130,7 +130,13 @@ SMARCA4 is a particularly interesting target for NF1.
 
 ## Conclusion/Discussion: 
 
-### Please make sure you address ALL of the following:
+* NF1 and NF2 are clearly differentiated.
+* This approach can discriminate between tumor types by identifying drivers and signaling cascades.
+* Content-driven Machine Learning can generate tumor-specific networks involving inferred gene-pathway associations.
+* This apprach identified potential therapeutic targets, including the following SMARCA4 hypothesis:
+### SMARCA4 could be a potential drug target for NF1
+SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential driver of tumorigenesis.  The gene has the potential to drive CTNNB1, which is another NF1 upstream regulator in the results above.  Compounds that target SMARCA4 are already available, so in this context, SMARCA4 is a potential drug target.
+![smarca4!](/images/smarca4.png "SMARCA4")
 
 #### *1. What additional data would you like to have*
 
