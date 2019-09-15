@@ -29,8 +29,7 @@ A better understanding of the biology of the different tumor types will lead to 
 We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNA-Seq data obtained from normal Schwann cells (SRP212780 and SRP094118).
 
 ### Data processing and visualization
-Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15,484 genes. RNA-Seq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
-\\[s_j=\mbox{median}_{i:K_i^R\neq 0}\frac{K_{ij}}{K_i^R}\;\;\; \mbox{where} \;\;\;K_i^R=\left(\prod_{j=1}^mK_{ij}\right)^{1/m}\\]
+Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 17,644 genes. RNA-Seq counts K were normalized, i.e. multiplied by a sample-specific factor s to account for differences in read depths, using the median-of-ratios method.
 Counts where subsequently log2-transformed (after adding a constant of 0.1 in order to handle zero counts). We then performed standard Principal Componant Analysis (PCA) retaining only the 10 top components as input into t-Distributed Stochastic Neighbor Embedding (t-SNE) (default parameter settings).
 
 ### Differential gene expression analysis
