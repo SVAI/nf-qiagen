@@ -16,7 +16,7 @@
 
 ## Website *(if applicable)*
 
-## Abstract *: Summarize everything in a few sentences.* 
+## Abstract
 
 Using the RNASeq data, we differentiated between the tumor types that descend from Schwann cells and identified drugs that target those differences.
 
