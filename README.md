@@ -20,7 +20,13 @@
 
 ## Abstract
 
-Using the RNASeq data, we differentiated between the tumor types that descend from Schwann cells and identified drugs that target significant regulators.
+* NF1 and NF2 present as specific tumor types arising from Schwann cells. Using RNA-seq data to perform a differential expression analysis we identified canonical pathways and upstream regulators enriched for specific tumor subtypes.
+
+* Using this information we then further developed disease-specific gene/pathway networks to prioritize potentially significant biology.
+
+* We then mapped the significantly activated upstream regulators to drug-target data to identify compounds that may have tumor-specific activity in these diseases.
+
+* This work provides potential insight into the biology of specific NF1 and NF2 tumor subtypes, prioritizes novel drug targets for further development and establishes an analytical that can be applied to further deconvolve the biology of other tumor subtypes arising from different cells of origin in NF1 and NF2 patients.
 
 ## Introduction *: What's the problem? Why should we solve it?*
 
