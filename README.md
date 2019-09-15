@@ -114,7 +114,7 @@ Now differences between the NF1 subtypes appear.
 
 ### Step 3: Create tumor type specific networks to visualize the differences
 
-MLPA was then used to generate disease-context networks inferred from content around the concept of "Nervous system neoplasm."  Upstream regulators are connected to pathways for different tumors, and the resulting networks depict the differences between the tumor types.
+MLPA was then used to generate tumor-context networks inferred from content.  Upstream regulators are connected to pathways for different tumors, and the resulting networks depict the differences between the tumor types.
 ![networks!](/images/networks.png "Comparison of MPNST1 and Schwannoma")
 Signaling through these pathways potentially explains gene expression changes.
 
