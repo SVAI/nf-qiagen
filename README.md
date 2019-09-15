@@ -88,7 +88,7 @@ We noted that the tumor types descended from different ancestor cells (http://on
 ### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
 After reducing to descendants of Schwann cells, all tumor types and normal cells separate into distinct clusters.
-![second tsne!](/images/tsne2-2.png "t-SNE of Schwann-decended tumor types")
+![second tsne!](/images/tsne2-3.png "t-SNE of Schwann-decended tumor types")
 Note that some types appear to subdivide further, so for our purposes, we split MPNST into two sub-groups.
 Also, both sets of normal Schwann cells clustered together, which gives confidence that the clustering is based on real biology rather than just experimental methods.
 
