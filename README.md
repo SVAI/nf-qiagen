@@ -41,7 +41,7 @@ Counts where subsequently log2-transformed (after adding a constant of 0.1 in or
 Differential expression analysis between selected clusters of samples (tumor vs. normal) was performed using DESeq2. 
 
 ### Ingenuity Knowledge Base
-The Ingenuty Knowledge Base (IKB) (Qiagen) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
+The Ingenuty Knowledge Base (IKB) (QIAGEN) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
 
 ### Upstream Regulator Analysis
 Upstream Regulator Analysis (URA) (CITATION) based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
@@ -52,7 +52,7 @@ Upstream Regulator Analysis (URA) (CITATION) based on the IKB is used to infer a
 Machine learning-augmented Pathway Analysis (MLPA) is used to infer weighted and signed pathway-gene associations. Its method is based on content-driven vector space embedding of genes, with gene feature vectors being used for subsequent training for pathway prediction. 
 
 ### Software availability and reproducibility
-PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook running Python 2.7 with libraries pandas, sklearn, numpy and matplotlib. PCA and t-SNE was also run independently using Omicsoft ArrayStudio (Qiagen) with similar results. DESseq2 is publicly available (R) but we used it as part of a pipeline in Omicsoft ArrayStudio. URA and access to the IKB is commercially available in Ingenuity Pathway Analysis (IPA) (Qiagen). MLPA is in active development and has not yet been made publicly available. The jupyter notebook and all necessary input data is being provided as a gzipped tar bundle on github.
+PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook running Python 2.7 with libraries pandas, sklearn, numpy and matplotlib. PCA and t-SNE was also run independently using Omicsoft ArrayStudio (QIAGEN) with similar results. DESseq2 is publicly available (R) but we used it as part of a pipeline in Omicsoft ArrayStudio. URA and access to the IKB is commercially available in Ingenuity Pathway Analysis (IPA) (QIAGEN). MLPA is in active development and has not yet been made publicly available. The jupyter notebook and all necessary input data is being provided as a gzipped tar bundle on github.
 
 ## Results
 
