@@ -16,6 +16,8 @@
 
 ## Website *(if applicable)*
 
+# Inferring regulators and pathways implicated in NF1 and NF2 tumors originating from Schwann cells using gene expression data
+
 ## Abstract
 
 Using the RNASeq data, we differentiated between the tumor types that descend from Schwann cells and identified drugs that target those differences.
@@ -32,6 +34,34 @@ The following steps were followed:
 
 ## Methods
 
+### Data
+We use RNAseq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNAseq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
+### >>> can we link to this data or provide downloaded files?
+
+### Data processing and visualization
+Data from all 3 resources were merged, omitting genes that were not present in all samples. The final data set contained 15484 genes. RNAseq counts $K_{ij}$ were normalized, i.e. multiplied by a sample-specific factor $s_j$ to account for differences in read depths, using the median-of-ratios method:
+$$s_j=\mbox{median}_{i:K_i^R\neq 0}\frac{K_{ij}}{K_i^R}\;\;\; \mbox{where} \;\;\;K_i^R=\left(\prod_{j=1}^mK_{ij}\right)^{1/m}$$
+Counts where subsequently log2-transformed (after adding a constant of 0.1 in order to handle zero counts). We then performed standard Principal Componant Analysis (PCA) retaining only the 10 top components as input into t-Distributed Stochastic Neighbor Embedding (t-SNE) (default parameter settings).
+
+### Differential gene expression analysis
+Differential expression analysis between selected clusters of samples (tumor vs. normal) was performed using DESeq2. 
+
+### Ingenuity Knowledge Base
+The Ingenuty Knowledge Base (IKB) (Qiagen) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
+
+### Upstream Regulator Analysis
+Upstream Regulator Analysis (URA) (CITATION) based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
+### >>> cite paper
+### >>> (COULD ADD SMALL DRAWING FROM OUR PAPER HERE)
+
+### Machine learning-augmented Pathway Analysis
+Machine learning-augmented Pathway Analysis (MLPA) is used to infer weighted and signed pathway-gene associations. Its method is based on content-driven vector space embedding of genes, with gene feature vectors being used for subsequent training for pathway prediction. 
+
+### Software availability and reproducibility
+PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook running Python 2.7 with libraries pandas, sklearn, numpy and matplotlib. PCA and t-SNE was also run independently using Omicsoft ArrayStudio (Qiagen) with similar results. DESseq2 is publicly available (R) but we used it as part of a pipeline in Omicsoft ArrayStudio. URA and access to the IKB is commercially available in Ingenuity Pathway Analysis (IPA) (Qiagen). MLPA is in active development and has not yet been made publicly available. The jupyter notebook and all necessary input data is being provided as a gzipped tar bundle on github.
+
+## Results
+
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
 We started with the RNASeq data provided in the Harmonized Genomics Dataset section of the Hackathon site. The data is a union of results from multiple different studies, so the data needed to be normalized.
@@ -47,15 +77,12 @@ Some clusters were distinct but others, such as the None and Plexiform Neurofibr
 
 We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
 ![tumor type taxonomy!](/images/taxonomy.png "Tumor type taxonomy")
-### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include*
+### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
 Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
 ![second tsne!](/images/tsne2.png "t-SNE of Schwann-decended tumor types")
-
 Note that some types appear to subdivide further, so for our purposes, we split MPNST into two sub-groups.
 Also, both sets of normal Schwann cells clustered together, which gives confidence that the clustering is based on real biology rather than just experimental methods.
-
-## Results *: What did we observe? Figures are great!*
 
 ## Conclusion/Discussion: 
 
