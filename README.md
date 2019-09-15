@@ -47,6 +47,10 @@ Some clusters were distinct but others, such as the None and Plexiform Neurofibr
 
 We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
 ![tumor type taxonomy!](/images/taxonomy.png "Tumor type taxonomy")
+*is it possible to provide a link to this specific image rather than just the site? If so, let's include*
+
+Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
+![second tsne!](/images/second_tsne.png "t-SNE of Schwann-decended tumor types")
 
 ## Results *: What did we observe? Figures are great!*
 
