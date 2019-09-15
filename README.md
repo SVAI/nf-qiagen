@@ -55,6 +55,8 @@ Differential expression analysis between selected clusters of samples (tumor vs.
 ### Ingenuity Knowledge Base
 The Ingenuty Knowledge Base (IKB) (QIAGEN) is a large, structured collection of curated findings from the biomedical literature. IKB content is represented as a network with nodes (genes, drugs and other molecules, biological functions, diseases, and pathways) and edges (representing prior experimental observations).
 
+### >>> Need explanation of canonical pathways?
+
 ### Upstream Regulator Analysis
 Upstream Regulator Analysis (URA) (CITATION) based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
 ### >>> cite paper
@@ -92,7 +94,29 @@ After reducing to descendants of Schwann cells, all tumor types and normal cells
 Note that some types appear to subdivide further, so for our purposes, we split MPNST into two sub-groups.
 Also, both sets of normal Schwann cells clustered together, which gives confidence that the clustering is based on real biology rather than just experimental methods.
 
+### Step 2: Identify the biology that differentiates the tumor types
+
+Five differential expression datasets were created, each of which compared normal Schwann cells to one of the tumor types, such as the following compared against the MPNST1 cluster:
+![volcano!](/images/volcano.png "MPNST1 vs. normal Schwann")
+
+### >>> need 5 datasets
+
+Analysis of these datasets in IPA shows significant pathway and regulator differentiation between NF1 and NF2 tumors, but NF1 subtypes appear relatively similar.
+![5 tumor comparison!](/images/nf1-nf2_comparison.png "Pathway and regulator comparison across tummor types")
+
+### >>> need image of entire heatmap
+### >>> need exported spreadsheet
+
+To further differentiate between NF1 subtypes, we created three more differential expression datasets matching cutaneous nf against mpnst1, mpnst2, and neurofibroma each.
+![3 tumor comparison!](/images/nf1_comparison.png "Pathway and regulator comparison across NF1 tummor types")
+Now differences between the NF1 subtypes appear.
+
+### >>> need image of entire heatmap
+### >>> need exported spreadsheet
+
 ## Conclusion/Discussion: 
+
+new mpnst subtypes?
 
 ### Please make sure you address ALL of the following:
 
