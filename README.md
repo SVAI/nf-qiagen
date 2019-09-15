@@ -14,32 +14,32 @@
 
 ## Awesome Logo *(if applicable)*
 
-# Inferring regulators and pathways implicated in NF1 and NF2 tumors originating from Schwann cells using gene expression data
+# Inferring regulators and pathways involved in NF1 and NF2 tumors originating from Schwann cells using gene expression data
 
 ## Abstract
 
-* NF1 and NF2 present as specific tumor types arising from Schwann cells. Using RNA-Seq data to perform a differential expression analysis we identified signaling pathways and upstream regulators enriched for specific tumor subtypes.
+* Neurofibromatosis Type 1 (NF1) and Neurofibromatosis Type 2 (NF2) present as specific tumor types arising from Schwann cells. Using RNA-Seq data to perform a differential expression analysis we identified signaling pathways and upstream regulators enriched for specific tumor subtypes.
 
-* Using this information we then further developed disease-specific gene/pathway networks to prioritize potentially significant biology.
+* Using this information we then further developed tumor-specific gene/pathway networks to prioritize potentially significant biology.
 
 * We then mapped the significantly activated upstream regulators to drug-target data to identify compounds that may have tumor-specific activity in these diseases.
 
-* This work provides potential insight into the biology of specific NF1 and NF2 tumor subtypes, prioritizes novel drug targets for further development and establishes an analytical that can be applied to further deconvolve the biology of other tumor subtypes arising from different cells of origin in NF1 and NF2 patients.
+* This work provides potential insight into the biology of specific NF1 and NF2 tumor subtypes, prioritizes novel drug targets for further development and establishes an analytic that can be applied to further unravel the biology of other tumor subtypes arising from different cells of origin in NF1 and NF2 patients.
 
 ## Introduction
 
-Tumor development in NF1 and NF2 patients can take a number of different courses based on the cell of origin (COO) for the tumor for example:
-* pNF, cNF, MPNST and Schwanoma arising from Schwann cells in the PNS
-* Glioma and Menigioma arising from othe glial precursors in the CNS
+Tumor development in NF1 and NF2 patients can take a number of different clinical courses based on the cell of origin (COO) for the tumor for example:
+* Plexiform Neurofibroma (PNF), Cutaneous Neurofibroma (CNF), Malignant Peripheral Nerve Sheath Tumor (MPNST) and Schwanoma arising from Schwann cells in the peripheral nervous system (PNS)
+* Glioma and Meningioma arising from the glial precursors in the central nervous system (CNS)
 
-Because of the different COO for these tumors the underlying biology is likely to be different. This makes therapeutic compound discovery to effectively target these tumors exceptionally difficult.
+Due to the different COO for these tumors, the underlying biology is likely to be different. This makes therapeutic compound discovery to effectively target these tumors exceptionally difficult.
 
-A better understanding of the biology of the different tumor subtype will lead to better approaches for identifying rational and effective treatment options. 
+A better understanding of the biology of the different tumor subtypes will lead to better approaches for identifying rational and effective treatment options. 
 
 ## Methods
 
 ### Data
-We use RNAseq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNAseq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
+We use RNA-Seq data provided by the organizers excluding the 48 new samples that were added on 09/13/19. In addition we also used two independent sets of RNAseq data obtained from normal Schwann cells (GSM3923266-8 and PRJNA355561).
 ### >>> can we link to this data or provide downloaded files?
 
 ### Data processing and visualization
