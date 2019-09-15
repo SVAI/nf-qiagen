@@ -39,6 +39,7 @@ We started with the RNASeq data provided in the Harmonized Genomics Dataset sect
 *insert lines/link about standardizing the data*
 
 This resulted in the following t-SNE plot:
+![first tsne!](/images/first_tsne.png "Initial t-SNE plot")
 
 ## Results *: What did we observe? Figures are great!*
 
