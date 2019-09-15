@@ -32,6 +32,12 @@ Seems like we could skip this
 
 ## Methods *: How did we go about solving it?*
 
+### Step 1: Cluster RNASeq expression data using PCA and t-SNE
+
+*insert line/link about standardizing the data*
+
+This resulted in the following t-SNE plot:
+
 ## Results *: What did we observe? Figures are great!*
 
 ## Conclusion/Discussion: 
