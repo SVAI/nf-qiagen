@@ -68,21 +68,23 @@ PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook ru
 
 ## Results
 
+Our approach involved the following steps:
+1. Cluster RNASeq expression data using PCA and t-SNE
+2. Identify the biology that differentiates the tumor types
+3. Create a network for each type, emphasizing the differences
+4. Identify drugs that target molecules in networks
+
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
-We started with the RNASeq data provided in the Harmonized Genomics Dataset section of the Hackathon site. The data is a union of results from multiple different studies, so the data needed to be normalized.
-
-### >>> insert lines/link about standardizing the data
-
-Additionally, we wanted to compare tumor types to normal cells, so we obtained two collections of normal Schwann cells.
-### >>> need to specify where they came from and link/provide file
-
-The combination resulted in the following t-SNE plot:
+Initially, the combination of RNASeq expression data and two sources of normal Schwann cells was clustered using PCA and t-SNE.
 ![first tsne!](/images/tsne1.png "Initial t-SNE plot")
-Some clusters were distinct but others, such as the None and Plexiform Neurofibroma that overlapped with other clusters.
+This first attempt highlighted a few issues:
+* Some specimens separate into clear tumor type clusters, but others do not.
+* There is ambiguity around which samples represent true ‘normal’ tissue of origin.
+* There is potential for significant separation to be based on batch effect or technical artificats.
 
-We noted that the tumor types descended from different ancestor cells.  The following taxonomy from http://oncotree.mskcc.org shows how the tumor types are related:
-![tumor type taxonomy!](/images/taxonomy.png "Tumor type taxonomy")
+We noted that the tumor types descended from different ancestor cells (http://oncotree.mskcc.org), which could lead to problems with comparing their data, so we choose to focus on tumors originating from Schwann Cells.
+![tumor type taxonomy!](/images/taxonomy2.png "Tumor type taxonomy")
 ### >>> is it possible to provide a link to this specific image rather than just the site? If so, let's include
 
 Since we will compare to normal Schwann cells, we chose to focus on only on those tumors descended from those cells.  After this decision, the resulting t-SNE suggested clear differences between the tumor types and the normal cells.
