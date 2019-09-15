@@ -135,21 +135,33 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 ## Reproduction:
 
+### Differential expression datasets
+
 [Differential expression datasets between normal Schwann cells and 5 tumor types](/resources/all4NF1_1NF2tumors_vs_normalschwanncells_DESeq2ContrastTest.txt)
 
 [Differential expression datasets between Cutaneous NF and other NF1 tumor types](/resources/CutaneousNF_vs_3NF1s.txt)
 
-[Significant upstream regulators for NF1 vs. NF2 comparison](/resources/nf1_vs_nf2_upreg.xls)
+### Results of normal vs. 5 tumor types
 
-[Significant pathways for NF1 vs. NF2 comparison](/resources/nf1_vs_nf2_cps.xls)
+[Significant upstream regulators for 5 tumors vs. normal](/resources/nf1_vs_nf2_upreg.xls)
 
-[Heatmap of upstream regulators for NF1 comparison](/resources/heatmap_UR_4NF1_1NF2.jpeg)
+[Heatmap of upstream regulators for 5 tumors vs. normal](/resources/heatmap_UR_4NF1_1NF2.jpeg)
+
+[Significant pathways for 5 tumors vs. normal](/resources/nf1_vs_nf2_cps.xls)
+
+[Heatmap of pathways for 5 tumors vs. normal)(/resources/Heatmap_CP_4NF1_1NF2_tumors.jpeg)
+
+### Results of Cutaneous NF vs. other NF1 tumor types
 
 [Significant upstream regulators for NF1 comparison](/resources/nf1s_upreg.xls)
 
+[Heatmap of upstream regulators for NF1 comparison](/resources/heatmap_UR_3NF1s.jpg)
+
 [Significant pathways for NF1 comparison](/resources/nf1s_cps.xls)
 
-[Heatmap of upstream regulators for NF1 vs. NF2 comparison](/resources/heatmap_UR_3NF1s.jpg)
+[Heatmap of pathways for NF1 comparison](/resources/heatmap_CP_3NF1s_v1.jpeg)
+
+### Matching drugs against regulators
 
 [Drug/Targets](/resources/drugs_with_targetRegulators.xlsx)
 
