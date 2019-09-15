@@ -135,6 +135,10 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 ## Reproduction:
 
+[Differential expression datasets between normal Schwann cells and 5 tumor types](/resources/all4NF1_1NF2tumors_vs_normalschwanncells_DESeq2ContrastTest.txt)
+
+[Differential expression datasets between Cutaneous NF and other NF1 tumor types] (/resources/CutaneousNF_vs_3NF1s.txt)
+
 [Significant upstream regulators for NF1 vs. NF2 comparison](/resources/nf1_vs_nf2_upreg.xls)
 
 [Significant pathways for NF1 vs. NF2 comparison](/resources/nf1_vs_nf2_cps.xls)
