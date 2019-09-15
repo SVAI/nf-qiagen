@@ -73,7 +73,7 @@ PCA, t-SNE, as well as data preprocessing was performed in a jupyter notebook ru
 Our approach involved the following steps:
 1. Cluster RNASeq expression data using PCA and t-SNE
 2. Identify the biology that differentiates the tumor types
-3. Create a network for each type, emphasizing the differences
+3. Create tumor type specific networks to visualize the differences
 4. Identify drugs that target molecules in networks
 
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
@@ -113,6 +113,15 @@ Now differences between the NF1 subtypes appear.
 
 ### >>> need image of entire heatmap
 ### >>> need exported spreadsheet
+
+### Step 3: Create tumor type specific networks to visualize the differences
+
+MLPA was then used to generate disease-context networks inferred from content around the concept of "Nervous system neoplasm."  Upstream regulators are connected to pathways for different tumors, and the resulting networks depict the differences between the tumor types.
+![networks!](/images/networks.png "Comparison of MPNST1 and Schwannoma")
+Signaling through these pathways potentially explains gene expression changes.
+
+### >>> Links to all tumor type networks
+
 
 ## Conclusion/Discussion: 
 
