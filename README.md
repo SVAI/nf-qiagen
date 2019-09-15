@@ -34,7 +34,9 @@ Seems like we could skip this
 
 ### Step 1: Cluster RNASeq expression data using PCA and t-SNE
 
-*insert line/link about standardizing the data*
+We started with the RNASeq data provided in the Harmonized Genomics Dataset section of the Hackathon site. The data was a union of results from multiple different studies, so the data needed to be normalized.
+
+*insert lines/link about standardizing the data*
 
 This resulted in the following t-SNE plot:
 
