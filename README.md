@@ -42,7 +42,7 @@ The Ingenuty Knowledge Base (IKB) (QIAGEN) is a large, structured collection of 
 ### Upstream Regulator Analysis
 Upstream Regulator Analysis (URA) [Krämer et al. Bioinformatics. 2014 Feb 15;30(4):523-30.  PMID: 24336805] based on the IKB is used to infer activation or inhibition of regulators potentially causing observed gene expression changes.
 
-### >>> (COULD ADD SMALL DRAWING FROM OUR PAPER HERE)
+![upreg!](/images/upreg.png "Upstream Regulator example")
 
 ### Machine learning-augmented Pathway Analysis
 Machine Learning-augmented Pathway Analysis (MLPA) is used to infer weighted and signed pathway-gene associations. Its method is based on content-driven vector space embedding of genes, with gene feature vectors being used for subsequent training for pathway prediction. 
