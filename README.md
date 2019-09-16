@@ -135,6 +135,10 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 ## Reproduction:
 
+### Data preparation
+
+[jupyter notebook for NF RNA-Seq t-SNE analysis](/resources/NF_hackathon_QIAGEN.tar.gz)
+
 ### Differential expression datasets
 
 [Differential expression datasets between normal Schwann cells and 5 tumor types](/resources/all4NF1_1NF2tumors_vs_normalschwanncells_DESeq2ContrastTest.txt)
