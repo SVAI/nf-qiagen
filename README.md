@@ -169,3 +169,6 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 
 [Drug/Targets](/resources/drugs_with_targetRegulators.xlsx)
 
+### Presentations
+
+[Hackathon Outcome session, Tuesday, September 24, 2019](/resources/Team_QIAGEN_NF_Hackathon_2019.pdf)
