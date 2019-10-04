@@ -168,7 +168,7 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 ### Regulator-pathway networks
 Depicting key regulators and pathways significant to each tumor type
 
-[Cutaneous](/networks/cutaneous vs normal schwann.png)
+[Cutaneous](/networks/cutaneous.png)
 
 ### Matching drugs against regulators
 
