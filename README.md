@@ -166,9 +166,17 @@ SMARCA4, commonly thought of as a tumor suppressor, is emerging as a potential d
 [Heatmap of pathways for NF1 comparison](/resources/heatmap_CP_3NF1s_v1.jpeg)
 
 ### Regulator-pathway networks
-Depicting key regulators and pathways significant to each tumor type
+Networks depict key regulators and pathways significant to each tumor type
 
 [Cutaneous](/networks/cutaneous.png)
+
+[MPNST1](/networks/mpnst1.png)
+
+[MPNST2](/networks/mpnst2.png)
+
+[Neurofibroma](/networks/neurofibroma.png)
+
+[Schwannoma](/networks/schwannoma.png)
 
 ### Matching drugs against regulators
 
